@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Lab 6"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SP CK"
+	}
+}

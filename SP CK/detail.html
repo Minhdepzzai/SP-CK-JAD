@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/detail.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="left-item">
+            <a class="click-img" href="../SP%20CK/home.html">
+                <div class="logo-icon">
+                    <img src="./assets/image/MINH_TRAILER-3-removebg-preview.png" alt="" />
+                </div>
+            </a>
+
+            <div class="nav-bar-item">
+                <div class="nav-bar-box">
+                    <h2>Movies</h2>
+                    <div class="movies-list">
+                        <a href="#" id="popular-movie">Popular</a>
+                        <a href="#" id="top-rated-movie">Top Rated</a>
+                    </div>
+                </div>
+                <div class="nav-bar-box">
+                    <h2>TV Shows</h2>
+                    <div class="movies-list">
+                        <a href="" id="popular-tv">Popular</a>
+                        <a href="" id="airing-tv">Airing today</a>
+                        <a href="" id="on-tv">On TV</a>
+                        <a href="" id="top-rated-tv">Top Rated</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="right-item">
+            <div class="last-item">
+                <div class="nav-bar-box ">
+                    <a href="../SP%20CK/login.html"><h2>Login</h2></a>
+                    
+                    
+                </div>
+                <div class="nav-bar-box ">
+                    <a href="../SP%20CK/register.html"><h2>Register</h2></a>
+                    
+                </div>
+            </div>
+        </div> -->
+        <div class="right-item">
+            <!-- <div class="last-item">
+                <div class="nav-bar-box">
+                    <h2>Hello Minhdepzzai</h2>
+                    <div class="movies-list">
+                        <a href="">Logout</a>
+
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="background-detail">
+        <div class="context">
+            <div class="img_poster" id="pos-film"><img src="" alt="" /></div>
+            <div class="content">
+                <h1 class="title" id="TitleFilm"></h1>
+                <h5 class="date" id="DateFilm"></h5>
+                <div class="content-film">
+                    <h3>Noi Dung</h3>
+                    <h3 class="overview" id="overviewFilm"></h3>
+                </div>
+
+                <div class="icon-play">
+                    <div class="icon-play-item">
+                        <i class="fa fa-play" style="font-size: 36px"></i>
+                        <h2>Play Trailer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="titleDV">Dien vien</h2>
+    </div>
+    <div class="container-swiper">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    <div class="swiper-slide">
+                        <div class="film-item">
+                            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg"
+                                alt="">
+                            <h4 id="name-actor">Jason Momoa</h4>
+                            <h5 id="name-phu">Arthur Curry / Aquaman</h5>
+
+                        </div>
+                    </div> -->
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-clickable"></div>
+    </div>
+
+    <div class="video-wrapper" id="videoDisplay">
+        <div class="video-wrapper-first">
+            <h2>Play Trailer</h2>
+            <iframe id="youtubeIframe" width="602" height="338" src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                allowfullscreen></iframe>
+            <div id="closeBTN">
+                <i class="fa fa-close" style="font-size: 36px"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/detail.js"></script>
+</body>
+
+</html>
